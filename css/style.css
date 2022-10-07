@@ -49,11 +49,66 @@ h1{
 }
 
 #xFr{
-    font-size: 50px;
+    font-size: 53px;
     font: bold;
 }
 
 #carouselExampleIndicators{
     margin-left: 10%;
     margin-right: 10%;
+}
+
+#carouselpi{
+    color: rgb(0, 0, 0);
+    font: bold;
+}
+
+#carouselExampleSlidesOnly{
+    text-align: center;
+    background-color: rgb(207, 207, 207);
+    padding-top: 10px;
+    font: bold;
+}
+
+h4{
+    margin-left: 10%;
+}
+
+.angry-grid {
+   display: grid; 
+   grid-template-columns: 26% 26% 26% 26%;
+   margin-left: 10%;
+    margin-right: 10%;
+}
+  
+#Item-0{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+#Item-1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+#Item-2{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+#Item-3{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
 }
