@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+body{
+    background: -webkit-linear-gradient(bottom, #fff, rgb(0, 0, 0));
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    font-size: 15;
+    min-height: 100vh;
+    color: #fff;
+}
+
+#navbarrr{
+    padding: 0;
+}
+
+#titulo{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.342);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.342);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#lista{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#navbar{
+    list-style: none;
+    display: inline;
+}
+
+#xFr{
+    font-size: 53px;
+    font: bold;
+}
+
+.img-fluid{
+    margin-left: 7%;
+
+}
+
+p{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.angry-grid {
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 7%;
+    margin-right: 7%;
+ }
+
+ .angry-grid1 {
+    display: grid; 
+    grid-template-columns: 50% 50% 50% 50%;
+    margin-left: 7%;
+    margin-right: 7%;
+ }
+
+ .angry-grid2 {
+    display: grid; 
+    grid-template-columns: 26% 26% 26% 26%;
+    margin-left: 18%;
+    margin-right: 0%;
+ }
+   
+ #Item-0{
+     grid-column-start: 1;
+     grid-row-start: 2;
+     grid-row-end: 2;
+     border: 2px solid rgb(0, 0, 0);
+     text-align: center;
+ }
+ 
+ #Item-1{
+     grid-column-start: 2;
+     grid-row-start: 2;
+     grid-row-end: 2;
+     border: 2px solid rgb(0, 0, 0);
+     text-align: center;
+ }
+ 
+ #Item-2{
+     grid-column-start: 3;
+     grid-row-start: 2;
+     grid-row-end: 2;
+     border: 2px solid rgb(0, 0, 0);
+     text-align: center;
+ }
+ 
+ #Item-3{
+     grid-column-start: 1;
+     grid-row-start: 4;
+     grid-row-end: 4;
+     border: 2px solid rgb(0, 0, 0);
+     text-align: center;
+ }
